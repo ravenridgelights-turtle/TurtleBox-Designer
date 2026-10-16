@@ -1,0 +1,20 @@
+name: Stage existing public releases
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/import-existing-releases.yml', 'tools/import_existing_releases.py']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: turtlebox-release-migration
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy and verify released installers and public documentation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/import_existing_releases.py
