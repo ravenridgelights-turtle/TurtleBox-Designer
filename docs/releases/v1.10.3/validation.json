@@ -1,0 +1,12 @@
+{
+  "version": "1.10.3",
+  "regressionChecks": 735,
+  "browserAcceptanceFlows": 14,
+  "browserErrors": 0,
+  "BudProfiles": 115,
+  "manufacturerSTEPGeometries": 23,
+  "insideBoreReferences": 610,
+  "outsideOnlyReferenceFeatures": 64,
+  "plateExport": "Each exported STL independently checked for two faces per edge, consistent winding, a single connected body and positive enclosed volume. Integral supports remain joined to their assigned plate piece.",
+  "nativeWindowsValidation": "Performed by the release workflow before publication."
+}

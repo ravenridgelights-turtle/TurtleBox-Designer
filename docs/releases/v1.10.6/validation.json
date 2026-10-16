@@ -1,0 +1,22 @@
+{
+  "version": "1.10.6",
+  "scope": "Mean Well LRS-350 power indicator only",
+  "localRegressionChecks": {
+    "livePowerPaths": 19,
+    "psuFanGeometry": 12
+  },
+  "browserChecks": [
+    "Powered LED is at the open +V corner shown in the product photo",
+    "LED follows flat supply rotation 0 and flip false",
+    "LED follows flat supply rotation 180 and flip true",
+    "LED follows edge supply rotation 25 and flip false",
+    "LED follows edge supply rotation 260 and flip true",
+    "Power OFF dims the relocated LED without changing plate geometry",
+    "An upper supply hides the lower indicator instead of shining through it"
+  ],
+  "browserErrors": [],
+  "releaseGate": "All 781 regression checks plus Windows installer upgrade, reinstall and uninstall must pass before publication.",
+  "reference": "https://www.meanwell.com/Upload/PDF/LRS-350/LRS-350-SPEC.PDF",
+  "referencePage": 4,
+  "placement": "Visual indicator position from manufacturer drawing and user photo; mounting data unchanged."
+}

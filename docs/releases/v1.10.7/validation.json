@@ -1,0 +1,22 @@
+{
+  "passed": [
+    "Clicking a gland starts the drawn route without creating an automatic pigtail",
+    "Bends remain editable and the live preview snaps to the hovered board port",
+    "Gland-first pigtail finishes at the explicitly clicked P6 instead of its assigned P1",
+    "Port-first drawing uses the selected male connector, style and outside tail length",
+    "An existing pigtail reconnects to a different controller without duplication or changing its connector",
+    "Redraw pigtail bends keeps both ends and connector details",
+    "Escape cancels an unfinished pigtail",
+    "Double-click repeat mode draws multiple pigtails",
+    "Wall drilling starts at the clicked hole and finishes at a chosen board port in 3D",
+    "The same two-end drawing works on the 2D plate",
+    "Canceling a redraw retains the saved pigtail route",
+    "Parts and wire cut lists count the drawn tails, bends, gauge and slack"
+  ],
+  "errors": [],
+  "version": "1.10.7",
+  "regressionChecks": 800,
+  "pigtailChecks": 19,
+  "windows": "Installation, upgrade, reinstall and uninstall are gated by the Windows release workflow.",
+  "wireWorkspaceBrowserChecks": 11
+}

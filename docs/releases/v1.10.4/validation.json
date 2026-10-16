@@ -1,0 +1,21 @@
+{
+  "version": "1.10.4",
+  "regressionChecks": 769,
+  "browserAcceptanceFlows": 25,
+  "browserErrors": 0,
+  "newRoutingFlows": [
+    "An unpowered N-to-PE error opens the right wiring review and never produces smoke",
+    "AC hot, neutral and earth have separate labelled click targets",
+    "Draw the AC neutral through three clicked bends around the PSU",
+    "Select a cable and drag a numbered bend in 3D",
+    "Cancel redrawing without changing the existing wire",
+    "Redraw bends at an adjustable height while retaining wire identity and electrical endpoints",
+    "Move the AC plug while the 3D Wire tool is active",
+    "Drag the plug into the outlet, then pull an inserted plug back out",
+    "Move the outlet with its inserted plug attached",
+    "Hide both side menus and gain over 500 pixels of usable workspace",
+    "Keep wire bends, moved outlet and hidden-panel preferences after reopening"
+  ],
+  "previousAssemblyFlows": 14,
+  "nativeWindowsValidation": "Performed by the release workflow before publication."
+}

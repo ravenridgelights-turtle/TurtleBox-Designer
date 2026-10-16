@@ -1,0 +1,42 @@
+{
+  "version": "1.10.5",
+  "regressionChecks": 781,
+  "regressionFailures": [],
+  "browserChecks": [
+    "Powered LRS-350 uses the actual CAD fan opening",
+    "Rotor animation reuses the cached grille mask",
+    "Only visible blade pixels move; metal cover and grille remain unchanged",
+    "Switching OFF leaves stationary black blades",
+    "Black fan remains beneath lrs350 cover, edge, rotated/flipped",
+    "Black fan remains beneath lrs600 cover, flat, rotated/flipped",
+    "Black fan remains beneath s360 cover, flat, rotated/flipped",
+    "Black fan remains beneath alitove360 cover, edge, rotated/flipped",
+    "The upper stacked supply occludes the lower spinning fan"
+  ],
+  "browserErrors": [],
+  "pixelCheck": {
+    "changedBladePixels": 3701,
+    "changedPixelsOutsideFanMask": 0
+  },
+  "nativeFanReferences": {
+    "lrs350": {
+      "x": 167.5,
+      "y": 78.3,
+      "radius": 25,
+      "coverZ": 30
+    },
+    "lrs600": {
+      "x": 175,
+      "y": 37.5,
+      "radius": 25,
+      "coverZ": 41
+    },
+    "s360": {
+      "x": 169.5,
+      "y": 35,
+      "radius": 28.25,
+      "coverZ": 50
+    }
+  },
+  "installation": "Windows upgrade, same-version reinstall and uninstall checks must pass before publication."
+}
